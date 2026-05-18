@@ -1,0 +1,24 @@
+/*
+.hero-section-12 {
+    background: url("../imgs/gtit/gears/gtit-bg03.webp"), url("../imgs/gtit/gears/gearsFamilyWarm.webp");
+    background-repeat: no-repeat, no-repeat;
+    background-position: center center, 80% 85%;
+    background-size: cover, 25rem auto;
+    min-height: 100vh;
+}
+*/
+
+.hero-section-12 {
+    background: url("../imgs/gtit/gears/gtit-bg03.webp") no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+    }
+
+.works-section-12 {
+    padding-block: 5rem;
+}
+
+.header-area-4__inner .header__logo img,
+.header-area-13 .header__logo img {
+    height: 80px;
+}
