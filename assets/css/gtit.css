@@ -9,7 +9,7 @@
 */
 
 .hero-section-12 {
-    background: url("../imgs/gtit/gears/gtit-bg03.webp") no-repeat center center;
+    background: url("../imgs/gtit/gears/gtit-bg05.webp") no-repeat center center;
     background-size: cover;
     min-height: 100vh;
     }
@@ -21,4 +21,8 @@
 .header-area-4__inner .header__logo img,
 .header-area-13 .header__logo img {
     height: 80px;
+}
+
+.approach-area-service-details-page .approach-wrapper-content {
+  margin-top: 70px;
 }
