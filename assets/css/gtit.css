@@ -19,10 +19,15 @@
 }
 
 .header-area-4__inner .header__logo img,
-.header-area-13 .header__logo img {
+.header-area-13 .header__logo img,
+.header-area-3 .header__logo img {
     height: 80px;
 }
 
 .approach-area-service-details-page .approach-wrapper-content {
   margin-top: 70px;
+}
+
+.header-area-13 .main-menu li a {
+  /* color: var(--white); */
 }
