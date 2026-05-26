@@ -1,33 +1,84 @@
-/*
-.hero-section-12 {
-    background: url("../imgs/gtit/gears/gtit-bg03.webp"), url("../imgs/gtit/gears/gearsFamilyWarm.webp");
-    background-repeat: no-repeat, no-repeat;
-    background-position: center center, 80% 85%;
-    background-size: cover, 25rem auto;
-    min-height: 100vh;
+
+.header-area-3 .header__logo img,
+.header-area-4 .header__logo img,
+.header-area-13 .header__logo img {
+  max-width: 168px;
 }
-*/
+
+
+.about-section-12__desc,
+.hero-section-12__title {
+    color:#112;
+}
+
+.offset-logo {
+  width: 145px;
+}
+
+@media only screen and (max-width: 991px) {
+   .header-area-13 .header__logo img {
+        max-width: 128px;
+    }
+}
 
 .hero-section-12 {
-    background: url("../imgs/gtit/gears/gtit-bg05.webp") no-repeat center center;
+    background: url("../imgs/gtit/gears/bg-blue-gears.webp") no-repeat center center;
     background-size: cover;
     min-height: 100vh;
-    }
-
-.works-section-12 {
-    padding-block: 5rem;
 }
 
-.header-area-4__inner .header__logo img,
-.header-area-13 .header__logo img,
-.header-area-3 .header__logo img {
-    height: 80px;
+@media only screen and (max-width: 1199px) {
+  .hero-section-12 {
+    min-height: 68vh;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+    .hero-section-12 {
+        min-height: 58vh;
+    }
+}
+
+@media (max-width: 575px) {
+
 }
 
 .approach-area-service-details-page .approach-wrapper-content {
   margin-top: 70px;
 }
 
-.header-area-13 .main-menu li a {
-  /* color: var(--white); */
+.works-section-12 {
+    padding-block: 5rem;
 }
+
+
+.rr-btn-primary,
+.header-area-4 .rr-btn-primary,
+.contact-area-contact-page .submit-btn .rr-btn-primary,
+.header-area-13 .rr-btn-primary {
+    background-color: #E68908;
+}
+
+.rr-btn-primary:hover {
+    background-color: #E68908;
+}
+
+footer {
+    border-bottom: 16px solid #E68908;
+}
+/*
+.header-area-4__inner .header__logo img,
+.header-area-13 .header__logo img,
+.header-area-3 .header__logo img {
+    height: 80px;
+}
+ */
+
+/*
+.header-area-13 .main-menu li a {
+  color: var(--white);
+} */
