@@ -5,6 +5,10 @@
   max-width: 168px;
 }
 
+.main-menu ul.dp-menu {
+    background-color: #112;
+}
+
 
 .about-section-12__desc,
 .hero-section-12__title {
@@ -13,6 +17,14 @@
 
 .offset-logo {
   width: 145px;
+}
+
+.load-text span:nth-child(-n + 4) {
+    /* color:#20208A */
+    color:#559;
+}
+.load-text span:nth-child(n + 5) {
+    color:#E68908
 }
 
 @media only screen and (max-width: 991px) {
@@ -27,20 +39,35 @@
     min-height: 100vh;
 }
 
+
+@media only screen and (max-width: 1919px) {
+  .section-spacing-top {
+    padding-top: 90px;
+  }
+}
+
 @media only screen and (max-width: 1199px) {
   .hero-section-12 {
     min-height: 68vh;
   }
+      .section-spacing-top {
+    padding-top: 60px;
+  }
 }
 
 @media only screen and (max-width: 991px) {
-
+    .section-spacing-top {
+    padding-top: 30px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
     .hero-section-12 {
         min-height: 58vh;
     }
+    .section-spacing-top {
+    padding-top: 10px;
+  }
 }
 
 @media (max-width: 575px) {
