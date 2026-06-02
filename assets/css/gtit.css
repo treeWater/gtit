@@ -43,6 +43,16 @@
     min-height: 100vh;
 }
 
+.about .page-title-area {
+  background-image: url("../imgs/gtit/factory/facilities/factory-gtit-entrance.webp");
+  background-size: cover;
+  background-position: center 80%;
+  padding-block: 5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  height: 600px;
+}
+
 
 @media only screen and (max-width: 1919px) {
   .section-spacing-top {
@@ -64,6 +74,9 @@
       .section-spacing-top {
     padding-top: 60px;
   }
+  .about .page-title-area {
+    height: 450px;
+  }
 }
 
 @media only screen and (max-width: 991px) {
@@ -78,6 +91,9 @@
     }
     .section-spacing-top {
     padding-top: 10px;
+  }
+    .about .page-title-area {
+    height: 350px;
   }
 }
 
