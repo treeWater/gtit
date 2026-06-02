@@ -9,6 +9,10 @@
     background-color: #112;
 }
 
+.header-area-13 .main-menu li a {
+    /* color: white; */
+}
+
 
 .about-section-12__desc,
 .hero-section-12__title {
@@ -44,6 +48,13 @@
   .section-spacing-top {
     padding-top: 90px;
   }
+    .footer-widget-box .copyright-text {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 1399px) {
+
 }
 
 @media only screen and (max-width: 1199px) {
@@ -97,6 +108,19 @@
 footer {
     border-bottom: 16px solid #E68908;
 }
+
+
+.about-us__inner .title {
+  font-size: 2.2rem;
+  line-height: 1.125;
+}
+
+.mfp-close::after {
+  font-family: "Font Awesome 5 Free";
+ content: "x";
+}
+
+
 /*
 .header-area-4__inner .header__logo img,
 .header-area-13 .header__logo img,
