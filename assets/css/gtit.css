@@ -131,11 +131,6 @@ footer {
   line-height: 1.125;
 }
 
-.mfp-close::after {
-  font-family: "Font Awesome 5 Free";
- content: "x";
-}
-
 
 /*
 .header-area-4__inner .header__logo img,
