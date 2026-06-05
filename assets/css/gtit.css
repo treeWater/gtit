@@ -131,6 +131,14 @@ footer {
   line-height: 1.125;
 }
 
+.mfp-close::after {
+  font-family: "Font Awesome Pro";
+ content: "\f00d";
+}
+
+.service-6__wrapper {
+  padding-bottom: 180px;
+}
 
 /*
 .header-area-4__inner .header__logo img,
