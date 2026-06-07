@@ -57,6 +57,11 @@
   background-color: #20208A;
 }
 
+.about-us__inner .about-us__wrapper .about-us__box .media .title,
+.about-us__inner .title {
+  font-weight: 400;
+}
+
 @media only screen and (max-width: 1919px) {
   .section-spacing-top {
     padding-top: 90px;
