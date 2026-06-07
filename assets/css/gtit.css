@@ -53,6 +53,9 @@
   height: 600px;
 }
 
+.service-6__item::before {
+  background-color: #20208A;
+}
 
 @media only screen and (max-width: 1919px) {
   .section-spacing-top {
