@@ -49,10 +49,16 @@
   background-position: center 80%;
   padding-block: 5rem;
   border-radius: 8px;
-  margin-bottom: 2rem;
   height: 750px;
 }
-
+.services .page-title-area {
+  background-image: url("../imgs/gtit/factory/facilities/factory-gtit-entrance.webp");
+  background-size: cover;
+  background-position: center 80%;
+  padding-block: 5rem;
+  border-radius: 8px;
+  height: 750px;
+}
 .service-6__item::before {
   background-color: #E68908;
 }
@@ -139,13 +145,15 @@ footer {
   line-height: 1.125;
 }
 
+
 .mfp-close::after {
-  font-family: "Font Awesome Pro";
- content: "\f00d";
+  font-family: "Font Awesome 6 Pro";
+  content: "\f00d";
+  font-weight: 300;
 }
 
 .service-6__wrapper {
-  padding-bottom: 180px;
+  padding-bottom: 120px;
 }
 
 /*
