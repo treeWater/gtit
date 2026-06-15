@@ -31,6 +31,12 @@
     color:#E68908
 }
 
+.service-6__subtitle {
+  font-size: 28px;
+}
+.service-6__subtitle span {
+  width: 400px;
+}
 @media only screen and (max-width: 991px) {
    .header-area-13 .header__logo img {
         max-width: 128px;
@@ -40,11 +46,18 @@
 .hero-section-12 {
     background: url("../imgs/gtit/gears/bg-blue-gears.webp") no-repeat center center;
     background-size: cover;
-    min-height: 100vh;
+}
+.hero-section-12__bottom {
+  border-bottom: none;
+}
+
+.works-section-12__content,
+.works-section-10__content {
+  text-align: center;
 }
 
 .about .page-title-area {
-  background-image: url("../imgs/gtit/factory/facilities/factory-gtit-entrance.webp");
+  background-image: url("../imgs/gtit/factory/facilities/entrance-gtit.webp");
   background-size: cover;
   background-position: center 80%;
   padding-block: 5rem;
@@ -52,7 +65,7 @@
   height: 750px;
 }
 .services .page-title-area {
-  background-image: url("../imgs/gtit/factory/facilities/factory-gtit-entrance.webp");
+  background-image: url("../imgs/gtit/factory/facilities/entrance-gtit.webp");
   background-size: cover;
   background-position: center 80%;
   padding-block: 5rem;
@@ -68,17 +81,35 @@
   font-weight: 400;
 }
 
+.header-area-13__inner {
+  border-bottom: none;
+}
+
 @media only screen and (max-width: 1919px) {
+  .hero-section-12 {
+    min-height: 100vh;
+  }
+  .hero-section-12__content {
+    padding-bottom: 185px;
+  }
   .section-spacing-top {
     padding-top: 90px;
   }
     .footer-widget-box .copyright-text {
     margin-top: 100px;
   }
+  .hero-section-12__bottom span.hero-section__right-text {
+  color: white;
+  }
 }
 
 @media only screen and (max-width: 1399px) {
-
+  .hero-section-12__bottom span.hero-section__right-text {
+    color: black;
+  }
+  .service-6__subtitle span {
+    width: 200px;
+  }
 }
 
 @media only screen and (max-width: 1199px) {
@@ -94,6 +125,9 @@
 }
 
 @media only screen and (max-width: 991px) {
+   .hero-section-12__content {
+    padding-bottom: 125px;
+  }
     .section-spacing-top {
     padding-top: 30px;
   }
@@ -101,13 +135,17 @@
 
 @media only screen and (max-width: 767px) {
     .hero-section-12 {
-        min-height: 58vh;
+        min-height: 100vh;
     }
     .section-spacing-top {
     padding-top: 10px;
   }
+    .services .page-title-area,
     .about .page-title-area {
     height: 350px;
+  }
+  .service-6__subtitle span {
+    width: 100px;
   }
 }
 
