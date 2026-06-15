@@ -12,6 +12,8 @@
   <!-- Fav Icon -->
   <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png">
   <link rel="preload" as="image" href="assets/imgs/gtit/gears/bg-blue-gears.webp" fetchpriority="high">
+  <link rel="preload" as="image" href="assets/imgs/gtit/factory/facilities/entrance-gtit.webp" fetchpriority="high">
+
   <!-- Dependencies CSS Files -->
   <link rel="stylesheet" href="assets/vandor/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="assets/vandor/fontawesome/fontawesome-pro.min.css">
@@ -137,11 +139,12 @@
                     <li class="menu-item-has-children">
                       <a href="gears.html">Gears</a>
                       <ul class="dp-menu">
-                        <li><a href="gears.html#helical">Helical Gears</a></li>
-                        <li><a href="gears.html#spur">Spur Gears</a></li>
                         <li><a href="gears.html#bevel">Bevel Gears</a></li>
+                        <li><a href="gears.html#helical">Helical Gears</a></li>
                         <li><a href="gears.html#internal">Internal Gears</a></li>
+                        <li><a href="gears.html#spur">Spur Gears</a></li>
                         <li><a href="gears.html#custom">Custom Gears</a></li>
+                        <li><a href="gears.html#splines">Splines</a></li>
                       </ul>
                     </li>
 
@@ -181,7 +184,7 @@
             <div class="hero-section-12__wrapper">
               <div class="hero-section-12__content">
                 <h2 class="hero-section-12__title">Geartorque <br/> Delivers Excellence</h2>
-                <p class="hero-section-12__subtitle">From gears to robots, from Ti Joints to precision machined components — <span>GTIT manufactur to your exact specifications and delivered on time, every time.</span> Engineered for industries that refuse to compromise.
+                <p class="hero-section-12__subtitle">From gears to robots, from precision components to robot joints, <span>GTIT builds to your exact specifications, delivers on time — every time. We are engineered for industries that refuse to compromise.</span>
                 </p>
               </div>
               <div class="hero-section-12__bottom">
@@ -198,41 +201,42 @@
           <div class="container rr-container-1890">
             <div class="works-section-12__wrapper">
 
-              <div class="works-section-10__item">
-                <div class="works-section-10__thumb rr--hover-item rr-pos-rel">
+              <div class="works-section-12__item">
+                <div class="works-section-12__thumb rr--hover-item rr-pos-rel">
                   <a href="robots.html">
                     <div class="rr--hover-img" data-displacement="assets/imgs/1.jpg" data-intensity="-0.6"
-                      data-speedin="1" data-speedout="1">
-                      <img src="assets/imgs/gtit/robots/robots-group.webp" loading = "lazy" alt="image not found">
+                      data-speedin="2" data-speedout="2">
+                      <img src="assets/imgs/gtit/robots/robots-group.webp" loading = "lazy" alt="image not found" style="margin-bottom: 20px;">
                     </div>
                   </a>
                 </div>
-                <div class="works-section-10__content">
-                  <a href="portfolio-details.html">
-                    <h2 class="works-section-12__title">Robots<br>
-                      Figure AI<br>
-                      2026</h2>
-                  </a>
+                <div class="works-section-12__content">
+                  <h2 class="title"><a href="robots.html">Robots</a></h2>
+                  <div class="meta">
+                    <span class="tag">Figure AI</span>
+                    <span class="date">2026</span>
+                  </div>
                 </div>
               </div>
 
-              <div class="works-section-10__item">
-                <div class="works-section-10__thumb rr--hover-item rr-pos-rel">
+              <div class="works-section-12__item">
+                <div class="works-section-12__thumb rr--hover-item rr-pos-rel">
                   <a href="tijoints.html">
                     <div class="rr--hover-img" data-displacement="assets/imgs/1.jpg" data-intensity="-0.6"
-                      data-speedin="1" data-speedout="1">
-                      <img src="assets/imgs/gtit/tijoints/tijoints.webp" loading = "lazy" alt="TI JOINTS">
+                      data-speedin="2" data-speedout="2">
+                      <img src="assets/imgs/gtit/tijoints/tijoints.webp" loading = "lazy" alt="image not found">
                     </div>
                   </a>
                 </div>
-                <div class="works-section-10__content">
-                  <a href="tijoints.html">
-                    <h2 class="works-section-12__title">Ti Joints <br>
-                      Figure AI<br>
-                      2026</h2>
-                  </a>
+                <div class="works-section-12__content">
+                  <h2 class="title"><a href="tijoints.html">Ti Joints</a></h2>
+                  <div class="meta">
+                    <span class="tag">Figure AI</span>
+                    <span class="date">2026</span>
+                  </div>
                 </div>
               </div>
+
 
               <div class="works-section-12__item">
                 <div class="works-section-12__thumb rr--hover-item rr-pos-rel">
@@ -359,13 +363,12 @@
                 <div class="works-section-12__content">
                   <h2 class="title"><a href="reducerassy.html">Reducer Assemblies</a></h2>
                   <div class="meta">
-                    <span class="tag">⌀8mm~2,000mm</span>
-                    <span class="date">DIN3961/5</span>
-                    <span class="date">AGMA/12</span>
+                    <span class="tag">Output Torque: 0.5~95 kNm</span>
+                    <span class="date">Ratio: 3.43:1 to 8900:1</span>
+                    <span class="date">Backlash: ≤1 arcmin</span>
                   </div>
                 </div>
               </div>
-
 
             </div>
           </div>
@@ -376,7 +379,14 @@
         <div class="about-section-12">
           <div class="container rr-container-1890">
             <div class="about-section-12__wrapper">
-              <p class="about-section-12__desc">With decades of specialized experience in gear manufacturing, we strive to deliver superior quality, shorter lead times, and greater flexibility than larger corporations — while offering far more competitive pricing than small workshops. <br/>From initial design support to full-scale production, we become an extension of your engineering team.</p>
+              <p class="about-section-12__desc">What began as a gear machining workshop has evolved into a specialized
+                manufacturing base for core components of robot joint reducers — including internal ring gears, planet carriers,
+                and other critical sub-assemblies. Today, GTIT is a recognized name in China's power transmission industry.</p>
+              <p class="about-section-12__desc">
+                Mission: &nbsp;To deliver superior intelligent transmission products that create greater value for our customers.
+                <br>Values: &nbsp;Integrity · Focus · R&D Excellence · Efficiency
+                <br>Vision: &nbsp;To become a respected and outstanding enterprise in the intelligent transmission industry.
+              </p>
               <div class="about-section-12__btn">
                 <a href="facilities.html" class="rr-btn">Learn more about us</a>
               </div>
