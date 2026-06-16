@@ -33,7 +33,9 @@
 
 .service-6__subtitle {
   font-size: 28px;
+  width: 62ch;
 }
+
 .service-6__subtitle span {
   width: 400px;
 }
@@ -84,6 +86,11 @@
 .header-area-13__inner {
   border-bottom: none;
 }
+.bar-icon span {
+  background: white;
+}
+.footer__inner {margin-top: .5rem;}
+
 
 @media only screen and (max-width: 1919px) {
   .hero-section-12 {
@@ -146,6 +153,9 @@
   }
   .service-6__subtitle span {
     width: 100px;
+  }
+  .service-6__subtitle {
+    font-size: 22px;
   }
 }
 
