@@ -2,14 +2,14 @@
 # Last updated: 2026-07-06
 
 User-agent: *
-Disallow: /tmp/               # 临时文件
-Disallow: /private/           # 内部资料、报价单页面
-Disallow: /search/            # 站内搜索结果页（避免重复内容）
-Disallow: /tag/               # 如标签页内容低质或重复
-Disallow: /author/            # 作者归档页（B2B站通常无意义）
-Disallow: /*.pdf$             # 可选：如PDF目录已单独提交，可阻止爬取
-Disallow: /thank-you/         # 表单提交后的感谢页
-Disallow: /404                # 错误页面
+Disallow: /tmp/
+Disallow: /private/
+Disallow: /search/
+Disallow: /tag/
+Disallow: /author/
+Disallow: /*.pdf$
+Disallow: /thank-you/
+Disallow: /404
 
 # 允许爬取核心资源（CSS/JS/图片，确保渲染正常）
 Allow: /wp-includes/*.js
