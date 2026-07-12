@@ -98,6 +98,10 @@ b {
 .blog-details .list {
   margin-bottom: 2rem;
 }
+.blog-details__content {
+  max-width: 76ch;
+  margin-inline: auto;
+}
 
 @media only screen and (max-width: 1919px) {
   .hero-section-12 {
